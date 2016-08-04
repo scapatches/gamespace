@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+background-image: url("http://data.whicdn.com/images/129645623/original.gif");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.stormtrooper {
+  width:50px;
+  height:50px;
+  float:left;
+  background-image: url("http://rs348.pbsrc.com/albums/q354/Kuro_wolf93/Storm-trooper-pixel-icon_zpsc8ee0b24.gif~c200");
+ background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.space{
+  width:50px;
+  height:50px;
+  float:left;
+}
+
+.row{
+  overflow:hidden;
+}
+
+#ship {
+height:50px;
+  width:50px;
+  position:absolute;
+  top: 300px;
+  left:0;
+  display:block;
+}
+#bullet{
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+#game-over{
+  color:white;
+  display:none;
+  font-size:200px;
+  text-align: center;
+}
